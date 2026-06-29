@@ -10,13 +10,13 @@
 void app_main(void)
 {
 	//esptim_int_init(1000000);
-	camera_init();
+	//camera_init();
 	while (1)
 	{
 
-		camera_capture();
+		//camera_capture();
 		
 		//printf("hello world!\n");
-		vTaskDelay(pdMS_TO_TICKS(33));
+		vTaskDelay(pdMS_TO_TICKS(500));
 	}
 }
